@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/1.css">
+<link rel="stylesheet" type="text/css" href="../css/2.css">
+<link rel="stylesheet" type="text/css" href="../css/3.css">
+<link rel="stylesheet" type="text/css" href="../css/4.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#66ffff">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script src="../js/1.js"></script>
+<div class="header">
+  <h1> Artificial Intelligence</h1>
+  <p> The new world begins with this new technology </p>
+</div>
+<ul>
+     <li><a href="../html/index.html" title="home">home</a></li>
+     <li><a href="../html/2.html" title="images">images</a></li>
+     <li><a class="active" href="../html/3.html" title="report">report</a></li>
+</ul>
+<div class="card">
+	<h3>an example using collapsed table cells</h3>
+</div>
+<div class="card">
+ <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+    <th>gender</th>
+    <th>martialstatus</th>
+  </tr>
+  <tr>
+    <td>samuel</td>
+    <td>paul</td>
+    <td colspan="2">50</td>
+    <td>married</td>
+  </tr>
+  <tr>
+    <td>phoebe</td>
+    <td>buffay</td>
+    <td>94</td>
+    <td>female</td>
+    <td>married</td>
+  </tr>
+  <tr>
+    <td>monica</td>
+    <td colspan="2">green</td>
+    <td>female</td>
+    <td>unmarried</td>
+  </tr>
+  <tr>
+	  <td colspan="3">rachel</td>
+	  <td>female</td>
+	  <td>unmarried</td>
+  </tr>
+  <tr>
+	  <td>mahesh</td>
+	  <td colspan="4">raj</td>
+  </tr> 
+</table>
+</div>
+<div class="card">
+	<center>
+		<table border="4">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<td><input type="text" name="fname" id="fname"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Skill</th>
+					<td><input type="text" name="lname" id="lname"></td>
+				</tr>
+				<tr>
+					<th>level</th>
+					<td><input type="text" name="email" id="email"></td>
+				</tr>
+				<tr>
+					<th>comment</th>
+					<td><input type="text" name="age" id="age"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="show">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>skill</th>
+					<th>level</th>
+					<th>comment</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+
+	<script src="../js/2.js">
+	</script>
+</div>
+</body>
+</html>
